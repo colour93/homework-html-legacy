@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.btn-back {
+    position: fixed;
+    text-decoration: none;
+    background: #abf7ff;
+}
+
+.item {
+    font-size: 36px;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: #00e5ff;
+}
+
+.btn-back, .item-title {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 16px;
+} 
+
+
+.item-title {
+    background: #00e7ff;
+    color: #000;
+}
+
+.item-a {
+    background: #3783f8;
+}
+
+.item-b {
+    background: #b476f7;
+}
+
+.item-sub:hover {
+    background: #75f0d4;
+    color: #000;
+    font-weight: 900;
+}

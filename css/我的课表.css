@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table * {
+    border: solid 3px #000;
+}
+
+.table caption {
+    border: none;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.table tr:nth-child(even) {
+    background: #7ca4ff;
+}
+
+.table thead {
+    background: #ffe5c3;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.table td {
+    padding: 8px;
+}
+
+.table tr:hover {
+    background: #ff884b;
+    font-weight: 900;
+}

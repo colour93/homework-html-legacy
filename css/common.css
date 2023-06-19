@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.btn-back {
+    position: fixed;
+    background: #00e7ff;  
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+}
+
+.btn-back:hover {
+    background: #75f0d4;   
+}
