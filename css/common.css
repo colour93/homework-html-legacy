@@ -7,7 +7,8 @@ body {
     background: #00e7ff;  
     text-decoration: none;
     padding: 15px;
-    margin: 10px;
+    right: 20px;
+    bottom: 20px;
 }
 
 .btn-back:hover {
